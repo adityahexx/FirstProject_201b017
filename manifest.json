@@ -1,0 +1,19 @@
+{
+    "name": "Color picker contributed by charliehexx",
+    "description": "A color picker extension to find different colors flying on net",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts":[{
+        "matches":["http://*/*"],
+        "js":["/colorpicker/js/jquery.min.js",
+        "colorpicker/js/picker.js"],
+        "css":[ "/colorpicker/css/style.css"
+
+        ]
+    }],
+    "permissions":["storage"],
+    "action":{
+        "default_popup":"/colorpicker/index.html"
+    }
+
+  }

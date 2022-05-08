@@ -1,0 +1,22 @@
+
+*{background-color:violet;
+}
+.btn--remix{
+    font-family:JK Grotest;
+    padding:0.75 rem 1 rem;
+    font-aize:1.1rem;
+    line-height:1rem;
+    font-weight:500;
+    height:2.75reml
+    align-itmes:center;
+    cursor:pointer;
+    background:#FFFFFF;
+    border1px solid black;
+    box-sizing:border-box;
+    border-radius:4px;
+    text-decoration:none;
+    color:#000;
+    white-space:nowrap;
+    margin-left:auto;
+
+}
